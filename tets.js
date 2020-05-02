@@ -88,3 +88,22 @@ VM2088: 1 500
 // * Використовуючи "switch" виведіть в консоль "a" або "b" або "c", виконайте те саме за допомогою "if else";
 // * Зробіть два різні приклади
 
+let number = prompt('Do you love number 1 or 2');
+console.log(number);
+
+switch (number) {
+   case ('1'): {
+      console.log('1');
+      break;
+   }
+
+   case ('2'): {
+      console.log('2');
+      break;
+   }
+   default: {
+      console.log('3');
+   }
+}
+VM384: 2 3
+VM384: 15 3
