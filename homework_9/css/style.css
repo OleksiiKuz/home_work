@@ -1,0 +1,142 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+
+.homework {
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.homework__title {
+  margin-bottom: 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.homework__wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 80px;
+  color: #fff;
+}
+.homework__input {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding-left: 10px;
+}
+.buttons__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  transition: 0.2s linear;
+  border-radius: 4px;
+}
+
+.button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.console_watch {
+  width: 500px;
+  height: 150px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+.console__title {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.console__block {
+  color: #fff;
+  padding: 5px;
+  overflow: hidden;
+}
